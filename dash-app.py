@@ -15,7 +15,7 @@ df = pd.read_csv("pink_morsel_sales.csv")
 fig = px.line(df, x="date", y="sales", color="region", title="Pink morsel sales")
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+    html.H1(children='Task 3'),
 
     html.Div(children='''
         Dash: A web application framework for your data.
